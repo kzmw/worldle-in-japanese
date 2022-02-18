@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/worldle-in-japanese/static/css/main.2207f36c.css",
+    "main.js": "/worldle-in-japanese/static/js/main.58cb4d10.js",
+    "static/js/787.c9c71c99.chunk.js": "/worldle-in-japanese/static/js/787.c9c71c99.chunk.js",
+    "index.html": "/worldle-in-japanese/index.html",
+    "main.2207f36c.css.map": "/worldle-in-japanese/static/css/main.2207f36c.css.map",
+    "main.58cb4d10.js.map": "/worldle-in-japanese/static/js/main.58cb4d10.js.map",
+    "787.c9c71c99.chunk.js.map": "/worldle-in-japanese/static/js/787.c9c71c99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2207f36c.css",
+    "static/js/main.58cb4d10.js"
+  ]
+}
