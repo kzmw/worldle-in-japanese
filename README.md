@@ -1,6 +1,6 @@
-# WOR**L**DLE
+# WOR**L**DLE in Japanese
 
-Play this geographical wordle here: https://worldle.teuteuf.fr !
+Play this geographical wordle here: https://www.nisylvania.net/worldle-in-japanese/ !
 
 ## Contributions & PR
 
