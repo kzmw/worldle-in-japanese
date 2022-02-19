@@ -67,6 +67,38 @@ const resources = {
       buyMeACoffee: "Offrez moi un ☕ !",
     },
   },
+  ja: {
+    translation: {
+      placeholder: "国や地域",
+      guess: "推理",
+      share: "共有",
+      showOnGoogleMaps: "Google Mapで見る",
+      welldone: "うまくいきました",
+      unknownCountry: "不明な国や地域です",
+      copy: "結果をクリップボードにコピーしました。",
+      showCountry: "地図を開く",
+      cancelRotation: "画像の回転をやめる",
+      settings: {
+        title: "設定",
+        distanceUnit: "距離の単位",
+        theme: "テーマ",
+        difficultyModifiers: "難易度変更",
+        startingNextDay: "次の日から更新されます。",
+        noImageMode: "国(地域)の画像を隠す",
+        rotationMode: "ランダムに画像を回転する",
+      },
+      stats: {
+        title: "統計",
+        played: "プレイ済み",
+        win: "達成率(%)",
+        currentStreak: "連続達成数",
+        maxStreak: "最多連続達成数",
+        averageBestDistance: "最良距離平均",
+        guessDistribution: "推理分布:",
+      },
+      buyMeACoffee: "Buy me a ☕!",
+    },
+  },
 };
 
 i18n

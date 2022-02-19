@@ -22,6 +22,12 @@ export function Settings({
     <Panel title={t("settings.title")} isOpen={isOpen} close={close}>
       <div className="my-4">
         <div className="flex p-1">
+          <label
+            className="flex-1 ml-2 flex items-center"
+            htmlFor="setting-distanceUnit"
+          >
+            {t("settings.distanceUnit")}
+          </label>
           <select
             id="setting-distanceUnit"
             className="h-8 dark:bg-slate-800"
@@ -30,17 +36,17 @@ export function Settings({
               updateSettings({ distanceUnit: e.target.value as "km" | "miles" })
             }
           >
-            <option value="km">KM</option>
-            <option value="miles">Miles</option>
+            <option value="km">km</option>
+            <option value="miles">マイル</option>
           </select>
-          <label
-            className="flex-1 ml-2 flex items-center"
-            htmlFor="setting-distanceUnit"
-          >
-            {t("settings.distanceUnit")}
-          </label>
         </div>
         <div className="flex p-1">
+          <label
+            className="flex-1 ml-2 flex items-center"
+            htmlFor="setting-theme"
+          >
+            {t("settings.theme")}
+          </label>
           <select
             id="setting-theme"
             className="h-8 dark:bg-slate-800"
@@ -49,15 +55,9 @@ export function Settings({
               updateSettings({ theme: e.target.value as "light" | "dark" })
             }
           >
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
+            <option value="light">ライト</option>
+            <option value="dark">ダーク</option>
           </select>
-          <label
-            className="flex-1 ml-2 flex items-center"
-            htmlFor="setting-theme"
-          >
-            {t("settings.theme")}
-          </label>
         </div>
       </div>
       <div className="my-4">

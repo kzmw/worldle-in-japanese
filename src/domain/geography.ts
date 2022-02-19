@@ -74,5 +74,5 @@ export function formatDistance(
 
   return distanceUnit === "km"
     ? `${Math.round(distanceInKm)}km`
-    : `${Math.round(distanceInKm * 0.621371)}mi`;
+    : `${Math.round(distanceInKm * 0.621371)}マイル`;
 }

@@ -116,7 +116,7 @@ export function Game({ settingsData }: GameProps) {
           className={`max-h-52 m-auto transition-transform duration-700 ease-in dark:invert ${
             hideImageMode && !gameEnded ? "h-0" : "h-full"
           }`}
-          alt="country to guess"
+          alt="推理する国(地域)"
           src={`images/countries/${country.code.toLowerCase()}/vector.svg`}
           style={
             rotationMode && !gameEnded

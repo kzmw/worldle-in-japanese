@@ -32,11 +32,11 @@ export function Stats({ isOpen, close, distanceUnit }: StatsProps) {
       </div>
       <div className="flex justify-center m-6">
         <div className="flex flex-col m-2">
-          <p className="text-4xl font-bold text-center">
-            {formatDistance(averageBestDistance, distanceUnit)}
-          </p>
           <p className="text-lg text-center">
             {t("stats.averageBestDistance")}
+          </p>
+          <p className="text-4xl font-bold text-center">
+            {formatDistance(averageBestDistance, distanceUnit)}
           </p>
         </div>
       </div>
@@ -68,9 +68,9 @@ interface StatsTileProps {
 
 function StatsTile({ value, name }: StatsTileProps) {
   return (
-    <div className="flex flex-col m-2 max-w-min">
-      <p className="text-3xl font-bold text-center">{value}</p>
+    <div className="flex flex-col m-2">
       <p className="text-center">{name}</p>
+      <p className="text-3xl font-bold text-center">{value}</p>
     </div>
   );
 }
